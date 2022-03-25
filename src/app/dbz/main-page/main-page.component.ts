@@ -8,10 +8,6 @@ import { DbzService } from '../services/dbz.service';
 })
 export class MainPageComponent {
 
-  get personajes() {
-    return this.dbzService.personajes;
-  }
-
   nuevo: Personaje = {
     nombre: 'Maestro Roshi',
     poder: 1000
